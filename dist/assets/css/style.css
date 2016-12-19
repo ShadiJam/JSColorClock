@@ -1,1 +1,1 @@
-*{font-family:Helvetica, Arial, sans-serif;box-sizing:border-box}h1{font-size:300px;text-align:center;color:fuchsia}
+*,*:after,*:before{transition:all .25s ease}body{color:white;background-color:red;transition:background .25s ease}h1{position:fixed;margin:0;top:50%;left:50%;transform:translate(-50%, -50%);font-size:15vw}h1:after{content:attr(hex);display:block;opacity:0;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}h1:hover{color:transparent}h1:hover:after{color:white;opacity:1}.bar{border-top:.5vw solid white;width:100%;margin:0 auto}
